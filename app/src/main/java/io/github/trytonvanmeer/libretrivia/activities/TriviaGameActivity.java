@@ -174,7 +174,6 @@ public class TriviaGameActivity extends BaseActivity
 
             if (!guess) {
                 final ColorStateList greenStateList = ColorStateList.valueOf(green);
-                correctAnswer.setBackgroundTintList(greenStateList);
             }
         } else {
             answer.getBackground().getCurrent().setColorFilter(
